@@ -14,7 +14,7 @@ describe('Basket', function () {
         basket.addItem(new Item('Butter'));
         basket.addItem(new Item('Milk'));
 
-        expect(basket.getTotalCost()).to.equal(2.95);
+        expect(basket.getTotalCost()).to.equal('2.95');
     });
 
     it('Given the basket has 2 butter and 2 bread when I total the basket then the total should be £3.10', function () {
@@ -24,7 +24,7 @@ describe('Basket', function () {
         basket.addItem(new Item('Bread'));
         basket.addItem(new Item('Bread'));
 
-        expect(basket.getTotalCost()).to.equal(3.10);
+        expect(basket.getTotalCost()).to.equal('3.10');
     });
 
     it('Given the basket has 4 milk when I total the basket then the total should be £3.45', function () {
@@ -34,7 +34,7 @@ describe('Basket', function () {
         basket.addItem(new Item('Milk'));
         basket.addItem(new Item('Milk'));
 
-        expect(basket.getTotalCost()).to.equal(3.10);
+        expect(basket.getTotalCost()).to.equal('3.45');
     });
 
 });
