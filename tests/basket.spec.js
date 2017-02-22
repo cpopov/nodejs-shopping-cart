@@ -14,7 +14,7 @@ describe('Basket', function () {
         basket.addItem(new Item('Butter'));
         basket.addItem(new Item('Milk'));
 
-        expect(basket.getTotalCost()).to.equal('2.95');
+        expect(basket.getTotalCost()).to.equal(2.95);
     });
 
 });
