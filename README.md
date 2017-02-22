@@ -21,6 +21,8 @@ Scenarios:
 * Given the basket has 4 milk when I total the basket then the total should be £3.45
 * Given the basket has 2 butter, 1 bread and 8 milk when I total the basket then the total should be £9.00
 
-## Implementation
+## Implementation details
 
-...
+* Install dependencies with ```npm install```
+* Run tests: ```npm test```
+

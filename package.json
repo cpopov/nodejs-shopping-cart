@@ -7,7 +7,9 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "lint": "jshint --reporter node_modules/jshint-stylish **"
+    "lint": "./node_modules/jshint/bin/jshint --reporter node_modules/jshint-stylish **",
+    "unit-coverage": "NODE_ENV=test ./node_modules/.bin/istanbul cover -x **/lib/mock/** ./node_modules/mocha/bin/_mocha -- --reporter spec --recursive tests",
+    "test": "npm run-script lint && npm run-script unit-coverage"
   },
   "engines": {
     "node": ">=6 <7"
@@ -16,7 +18,13 @@
 
   },
   "devDependencies": {
+    "chai": "~3.5.0",
+    "istanbul": "~0.4.5",
     "jshint": "^2.9.4",
-    "jshint-stylish": "^2.2.1"
+    "jshint-stylish": "^2.2.1",
+    "mocha": "~3.1.2",
+    "rewire": "^2.5.1",
+    "sinon": "~1.17.3",
+    "supertest": "~2.0.0"
   }
 }
