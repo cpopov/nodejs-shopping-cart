@@ -22,7 +22,7 @@
     "istanbul": "~0.4.5",
     "jshint": "^2.9.4",
     "jshint-stylish": "^2.2.1",
-    "mocha": "~3.1.2",
+    "mocha": "~3.2.0",
     "rewire": "^2.5.1",
     "sinon": "~1.17.3",
     "supertest": "~2.0.0"
