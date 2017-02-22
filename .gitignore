@@ -1,0 +1,24 @@
+# Logs
+logs
+*.log
+
+# Node.js
+pids
+*.pid
+*.seed
+lib-cov
+coverage
+.lock-wscript
+build/Release
+node_modules
+dist
+tap.txt
+
+# IDEs
+*.iws
+*.ipr
+*.iml
+.idea
+
+#MacOS
+.DS_Store

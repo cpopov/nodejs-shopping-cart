@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-shopping-cart",
+  "version": "0.0.1",
+  "contributors": [
+    "Christohe Popov <chrpopov@gmail.com>"
+  ],
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "lint": "jshint --reporter node_modules/jshint-stylish **"
+  },
+  "engines": {
+    "node": ">=6 <7"
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1"
+  }
+}

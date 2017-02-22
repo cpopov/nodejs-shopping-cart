@@ -1,0 +1,9 @@
+node_modules/
+*.md
+*.xml
+*.log
+*.iml
+*.ipr
+*.iws
+*.sh
+package.json
